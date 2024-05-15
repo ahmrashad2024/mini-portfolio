@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini-Portfolio</title>
 </head>
+
 <body>
     <header>
         <!-- Navigation bar linking to 4 pages -->
@@ -19,7 +21,27 @@
     </header>
     <main>
         <h1>CONTACT ME</h1>
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <label for="name">Name</label><br>
+                <input id="name" type="text"><br>
+
+                <label for="email"></label><br>
+                <input id="email" type="email"><br>
+
+                <input id="join-sub" type="checkbox" value="joined">
+                <label for="join-sub">suscribe</label><br>
+
+                <label for="mail-content">Mail Content</label><br>
+                <textarea id="mail-content" rows="5" cols="33" placeholder="write your comment"></textarea><br>
+
+                <button type="submit">Send</button>
+            </fieldset>
+        </form>
     </main>
-    <footer></footer>
+    <footer>
+        <p>Looking forward to working with you</p>
+    </footer>
 </body>
+
 </html>
