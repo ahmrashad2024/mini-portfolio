@@ -21,23 +21,35 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>CONTACT ME</h1>
+    <main class="c-main">
+        <div class="c-h1">
+            <h1>CONTACT ME</h1>
+        </div>
         <form action="/form-handling-url" method="post">
             <fieldset>
-                <label for="name">Name</label><br>
-                <input id="name" type="text"><br>
+                <div class="f-name">
+                    <label for="name">Name</label>
+                    <input id="name" type="text">
+                </div>
 
-                <label for="email"></label><br>
-                <input id="email" type="email"><br>
+                <div class="f-email">
+                    <label for="email">Email</label>
+                    <input id="email" type="email">
+                </div>
 
-                <input id="join-sub" type="checkbox" value="joined">
-                <label for="join-sub">suscribe</label><br>
+                <div class="f-check">
+                    <input id="join-sub" type="checkbox" value="joined">
+                    <label for="join-sub">suscribe</label><br>
+                </div>
 
-                <label for="mail-content">Mail Content</label><br>
-                <textarea id="mail-content" rows="5" cols="33" placeholder="write your comment"></textarea><br>
+                <div class="f-text">
+                    <label for="mail-content">Mail Content</label><br>
+                    <textarea id="mail-content" rows="5" cols="33" placeholder="write your comment"></textarea><br>
+                </div>
 
-                <button type="submit">Send</button>
+                <div class="f-button">
+                    <button type="submit">Send</button>
+                </div>
             </fieldset>
         </form>
     </main>
