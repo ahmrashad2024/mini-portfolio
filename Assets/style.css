@@ -102,3 +102,10 @@ fieldset {
 button {
     width: 50%;
 }
+
+/* About */
+
+.a-header {
+    display: flex;
+    justify-content: center;
+}
