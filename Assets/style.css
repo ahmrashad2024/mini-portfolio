@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    color: #303853;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+    color: #112674;
+}
+
+body {
+    background: rgb(134,151,196);
+    background: linear-gradient(280deg, rgba(134,151,196,1) 0%, rgba(173,187,218,1) 50%, rgba(237,232,245,1) 100%);
+}

@@ -31,8 +31,8 @@ fonts:
 - Verdana, sans-serif
 
 color-pallete:
-- #3D52A0
-- #7091e6
+- #112674
+- #303853
 - #8697C4
 - #ADBBDA
 - #EDE8f5
